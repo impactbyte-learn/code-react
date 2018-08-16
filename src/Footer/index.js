@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Footer = () => (
-  <footer className="footer">
-    <h1 className="title">Copyright 2018</h1>
+const APP_NAME = `Code ReactJS`
+
+const Footer = props => (
+  <footer>
+    <small>Copyright 2018 {props.app}</small>
   </footer>
 )
 
