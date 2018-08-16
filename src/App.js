@@ -4,7 +4,6 @@ import './App.css'
 
 import Header from './Header'
 import Paragraph from './Paragraph'
-
 class App extends Component {
   render() {
     return (
