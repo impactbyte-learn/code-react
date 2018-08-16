@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
 
-import Header from '../Header'
+import HeaderModern from '../HeaderModern'
 import Paragraph from '../Paragraph'
 
 import './index.css'
-
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <HeaderModern />
         <Paragraph />
       </div>
     )
