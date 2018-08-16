@@ -27,6 +27,7 @@ class InputText extends React.Component {
       <div>
         <input type="text" onChange={this.handleChange} />
         <ButtonModern type="success">Modern</ButtonModern>
+        <Button color="success">Bootstrap</Button>
         <p>Text: {this.state.text}</p>
       </div>
     )

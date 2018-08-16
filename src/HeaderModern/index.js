@@ -2,9 +2,11 @@ import React from 'react'
 
 import './index.css'
 
+import Title from '../Title'
+
 const Header = props => (
   <header className="header">
-    <h1 className="title">Welcome to {props.app}!</h1>
+    <Title color="blue">Welcome to {props.app}!</Title>
   </header>
 )
 

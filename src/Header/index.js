@@ -2,9 +2,11 @@ import React from 'react'
 
 import './index.css'
 
+import Title from '../Title'
+
 const Header = () => (
   <header className="header">
-    <h1 className="title">Welcome</h1>
+    <Title>Welcome</Title>
   </header>
 )
 
