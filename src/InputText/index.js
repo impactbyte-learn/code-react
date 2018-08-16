@@ -1,4 +1,7 @@
 import React from 'react'
+import { Button } from 'reactstrap'
+
+import ButtonModern from '../ButtonModern'
 
 import './index.css'
 
@@ -23,6 +26,7 @@ class InputText extends React.Component {
     return (
       <div>
         <input type="text" onChange={this.handleChange} />
+        <ButtonModern type="success">Modern</ButtonModern>
         <p>Text: {this.state.text}</p>
       </div>
     )

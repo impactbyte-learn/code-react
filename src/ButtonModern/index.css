@@ -1,0 +1,23 @@
+button {
+  color: white;
+}
+
+.success,
+.green {
+  background: green;
+}
+
+.danger,
+.red {
+  background: red;
+}
+
+.info,
+.blue {
+  background: blue;
+}
+
+.warning,
+.yellow {
+  background: yellow;
+}

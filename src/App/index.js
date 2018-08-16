@@ -5,6 +5,7 @@ import Paragraph from '../Paragraph'
 import InputText from '../InputText'
 import Footer from '../Footer'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 class App extends Component {
   constructor(props) {
